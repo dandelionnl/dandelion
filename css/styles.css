@@ -7,7 +7,8 @@
 body {
 	font-family: 'Cormorant Garamond', serif;
 	color: #1d3557;
-	background-color: #faf3ee;
+	background-color:background: rgb(250,243,238);
+background: linear-gradient(360deg, rgba(250,243,238,1) 0%, rgba(247,166,164,1) 100%);;
 }
 
 /* Changing the background colour for the header */
