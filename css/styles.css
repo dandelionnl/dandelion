@@ -6,10 +6,12 @@
 
 body {
 	font-family: 'Cormorant Garamond', serif;
-	color: #1d3557;
-	background-color:background: rgb(250,243,238);
-background: linear-gradient(360deg, rgba(250,243,238,1) 0%, rgba(247,166,164,1) 100%);;
+	color: #1d3557; 
+
+	background: rgb(250,243,238);
+	background: linear-gradient(360deg, rgba(250,243,238,1) 0%, rgba(247,166,164,1) 100%); 
 }
+	
 
 /* Changing the background colour for the header */
 
@@ -34,4 +36,7 @@ footer a:hover {
 #navbar-corporate a.active {
 	color: #800000;
 	font-weight: bold;
+}
+.picRight {
+	float:left;
 }
