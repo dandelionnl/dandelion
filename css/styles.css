@@ -8,8 +8,8 @@ body {
 	font-family: 'Cormorant Garamond', serif;
 	color: #1d3557; 
 
-	background: rgb(250,243,238);
-	background: linear-gradient(360deg, rgba(250,243,238,1) 0%, rgba(247,166,164,1) 100%); 
+	background: rgb(69,123,157);
+background: linear-gradient(0deg, rgba(69,123,157,1) 0%, rgba(250,243,238,1) 100%);
 }
 	
 
@@ -22,7 +22,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #F9D9D5;
+	background-color: #E8E7E5;
 }
 
 /* Effect on social media buttons */
