@@ -25,12 +25,35 @@
 
   gtag('config', 'G-HKDTN29SPT');
 </script>
-	  
+	
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Bootstrap Javascript -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  
+  
+  <!-- Call the plugin -->
+  <script>
+    $(document).ready(function(){
+  $(".carousel1").owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true
+  });
+});
+  </script>
 
     <!-- End of Google Analytics code -->
 
   </head>
-  <body class="h-100 d-flex flex-column">
+  <body class="h-100 d-flex flex-column everything">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -71,17 +94,53 @@
     <!-- End of navigation bar -->
 
     <!-- Start of main placeholder in landing page -->
-    <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+   <section class=" d-flex flex-column justify-content-center align-items-center everything"> 
      	<marquee>
-		<img class="mb-1" src="images/logodandelion.png" width="200" alt="dandelion logo"></marquee>
+		<img class="mb-1" src="images/logodandelion.png" width="300" alt="dandelion logo"></marquee>
       <h1>DANDELION</h1>
-      <h5 class="fst mb-5">Coming soon…</h5>
-      <div class="container text-center">
-        <h5 class="fst-italic"> In a world full of insecurities and expectations that hold you back, we believe that you should take a leap of faith and not only trust yourself but trust the process; only then will you be open and confident enough to let go and be your true self.</h5>
-        
-     
+      <h3 class="fst mt-5">Vision</h3>
+      <div class="container text-center visionbackground rounded">
+        <h5> In a world full of insecurities and expectations that hold you back, we believe that you should take a leap of faith and not only trust yourself but trust the process; only then will you be open and confident enough to let go and be your true self</h5>
       </div>
-    </main>
+		<h2 class="fst mt-5">Meet Our Team</h2>
+	  
+	<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="testimonial-slider" class="owl-carousel carousel1">
+        <div class="testimonial">
+          <div class="pic">
+            <img src="images/member4.jpg" alt="">
+          </div>
+          <h3 class="testimonial-title">Jay Jay Annan</h3>
+          <span class="post">Production Manager</span>
+        </div>
+        <div class="testimonial">
+          <div class="pic">
+            <img src="images/member3.jpg" alt="">
+          </div>
+          <h3 class="testimonial-title">Natalie Matoulek</h3>
+          <span class="post">Social Media Manager</span>
+        </div>
+        <div class="testimonial">
+          <div class="pic">
+            <img src="images/member2.jpeg" alt="">
+          </div>
+          <h3 class="testimonial-title">Dimana Popova</h3>
+          <span class="post">Website Manager</span>
+        </div>
+        <div class="testimonial">
+          <div class="pic">
+            <img src="images/member1.jpg" alt="">
+          </div>
+          <h3 class="testimonial-title">Annefleur Aussems</h3>
+          <span class="post">Marketing Manager</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	   </section>
     <!-- End of main placeholder -->
 
   </body>

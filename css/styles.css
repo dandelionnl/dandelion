@@ -4,7 +4,7 @@
 
 /* Changing the main font and background colour */
 
-body {
+.everything {
 	font-family: 'Cormorant Garamond', serif;
 	color: #1d3557; 
 
@@ -37,4 +37,8 @@ footer a:hover {
 #navbar-corporate a.active {
 	color: #800000;
 	font-weight: bold;
+}
+
+.visionbackground{
+	background-color: #457B9D;
 }
