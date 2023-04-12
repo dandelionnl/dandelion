@@ -22,7 +22,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #E8E7E5;
+	background-color: #faf3ee;
 }
 
 /* Effect on social media buttons */
@@ -59,4 +59,10 @@ footer{
 .fontgodandelion {
 	font-family: 'Cormorant Garamond', serif;
 	color: #1d3557; 
+}
+
+.backgroundcolor{
+	
+	 background: rgb(230,57,70);
+background: radial-gradient(circle, rgba(230,57,70,1) 0%, rgba(247,166,164,1) 100%);
 }
