@@ -81,3 +81,16 @@ background: radial-gradient(circle, rgba(247,166,164,1) 0%, rgba(68,91,157,1) 10
   margin-top: 4rem !important;
 }
 
+.corporatebackground{
+	background-color:#faf3ee;
+}
+
+.justificationsbackground{
+	
+	background: rgb(250,243,238);
+background: linear-gradient(180deg, rgba(250,243,238,1) 0%, rgba(68,91,157,1) 90%);
+}
+
+.justificationsfooter{
+	background-color:#445b9d;
+}
